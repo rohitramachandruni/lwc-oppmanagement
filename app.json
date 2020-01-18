@@ -6,7 +6,7 @@
     "keywords": ["node", "express", "static"],
     "env": {
         "APP_NAME": {
-            "required": false
+            "required": true
     },
     "scripts": {},
     "formation": {
