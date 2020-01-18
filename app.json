@@ -1,12 +1,16 @@
 {
-    "name": "lwc-open-source-with-heroku",
+    "name": "LWC Opp Management",
     "description": "LWC Open Source with Heroku",
-    "repository": "https://github.com/Tdssaini/lwc-open-source-with-heroku",
+    "repository": "https://github.com/rohitramachandruni/lwc-oppmanagement.git",
     "logo": "https://developer.salesforce.com/resources2/quests/badge2.png",
     "keywords": ["node", "express", "static"],
     "env": {
-        "APP_NAME": {
+        "SF_LOGIN_URL": {
             "required": true
+        },
+        "SF_USERNAME" : {
+            "required" : true   
+        }
     },
     "scripts": {},
     "formation": {
